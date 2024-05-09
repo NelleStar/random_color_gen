@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+/* universal selector - box sizing property - if any padding or border added onto element it won't affect the width */
+* {
+  box-sizing: border-box;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.button-color-type {
+  display: flex;
+  padding: 20px;
+}
+
+.button-random {
+  display: flex;
+}
+
+button {
+  margin: 5px 20px;
+  padding: 5px 30px;
+  border-radius: 6px;
+  background-color: #3498db;
+  color: white;
+  font-size: 14px;
+  border: 0;
+}
+
+h1, h3 {
+  color: rgb(41, 39, 39);
+}
+
